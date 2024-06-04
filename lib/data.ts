@@ -78,21 +78,21 @@ export const projectsData = [
       "MongoDB",
       "Heroku",
     ],
-    imageUrl: "",
+    imageUrl: "../public/kanbam.png",
   },
   {
     title: "Hell-Yum",
     description:
       "An app to store and share recipes, an create a shopping list of needed ingredients",
     tags: ["MongoDB", "Bulma", "Heroku", "Express", "Handlebars", "Sequelize"],
-    imageUrl: "",
+    imageUrl: "../public/hell_yum.png",
   },
   {
     title: "Concert Finder",
     description:
       "My first project was a concert finder where you can find upcoming shows for any given artist",
     tags: ["Javascript", "Bulma"],
-    imageUrl: "",
+    imageUrl: "../public/concert_finder.png",
   },
 ] as const;
 
