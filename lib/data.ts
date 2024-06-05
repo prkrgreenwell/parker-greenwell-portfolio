@@ -1,6 +1,9 @@
 import React from "react";
 import { FaComputer, FaReact } from "react-icons/fa6";
 import { LuGraduationCap, LuSchool } from "react-icons/lu";
+import kanbamImg from "@/public/kanbam.png";
+import hellYumImg from "@/public/hellyum.png";
+import concertFinderImg from "@/public/concert_finder.png";
 
 export const links = [
   {
@@ -78,21 +81,21 @@ export const projectsData = [
       "MongoDB",
       "Heroku",
     ],
-    imageUrl: "../public/kanbam.png",
+    imageUrl: kanbamImg,
   },
   {
     title: "Hell-Yum",
     description:
       "An app to store and share recipes, an create a shopping list of needed ingredients",
     tags: ["MongoDB", "Bulma", "Heroku", "Express", "Handlebars", "Sequelize"],
-    imageUrl: "../public/hell_yum.png",
+    imageUrl: hellYumImg,
   },
   {
     title: "Concert Finder",
     description:
       "My first project was a concert finder where you can find upcoming shows for any given artist",
     tags: ["Javascript", "Bulma"],
-    imageUrl: "../public/concert_finder.png",
+    imageUrl: concertFinderImg,
   },
 ] as const;
 
